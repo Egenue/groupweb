@@ -1,0 +1,782 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.tite h2{
+    
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 15;
+    margin: auto;
+    color: burlywood;
+    
+    font-size: 200%;
+}
+.new{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wall.jpg);
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+.start{
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    color: burlywood;
+    font-weight: bold;
+}
+.start::after{
+    content: " ";
+    height: 3%;
+    width: 0%;
+    background:greenyellow;
+    position: absolute;
+    left: 0;
+    bottom: 75%;
+    transition: 0.3s;
+}
+.tite:hover::after{
+    width: 100%;
+}
+.main p{
+    color:azure;
+    height: 5%;
+         font-size: 109%;
+    font-weight: 400% ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+.main p1{
+    color: crimson;
+    height: 5%;
+font-size: large;
+font-weight: 300 ;
+}
+.list ul li{
+    list-style:circle;
+    display: inline-block;
+    margin: 20px 40px;
+    position: relative;
+
+}
+.list ul li a{
+    
+        text-decoration: none;
+        color: aqua;
+        text-transform: uppercase;
+    
+}
+.list ul li::after{
+    content: " ";
+    height: 5%;
+    width: 0%;
+    background:gold;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+
+}
+.list ul li:hover::after{
+    width: 100%;
+
+}
+
+.nice{
+    width: 100%;
+    height: 255vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpaper.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: repeat;
+   
+
+}
+.name1 h2{
+text-align: left;
+color: wheat;
+font-size: bold;
+}
+.name1 h3{
+    text-align: left;
+    color: tan;
+    
+}
+.uniq h3{
+    color: red;
+    text-shadow:  0 0 10px rgb(52, 150, 255),
+    0 0 20px blue,
+    0 0 40px rgb(77, 77, 210),
+    0 0 80px rgb(19, 19, 113),
+    0 0 120px rgb(3, 237, 249),
+    0 0 150px rgb(5, 190, 241);
+}
+
+.name1 p{
+    font-size: large;
+    height: 5%;
+    color:turquoise;
+}
+.merc h3{
+    text-align: left;
+    color: tan;
+}
+.merc p{
+    font-size: large;
+    height: 5%;
+    color:turquoise;  
+}
+.cv h3{
+    text-align: left;
+    color: tan;
+}
+.cv p1{
+    text-align: left;
+    color: tan; 
+}
+.info p1{
+    position: absolute;
+margin-top: auto;
+  
+    
+}
+.info p{
+   
+    font-size: large;
+  
+    color:turquoise; 
+   
+
+}
+.exp p1{
+text-transform: uppercase;
+text-align: left;
+    color: tan;
+    
+}
+.exp p{
+    text-align: left;
+  
+    font-size: large;
+   
+    color:turquoise; 
+}
+.lan od li{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise; 
+}
+.acc od li{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise; 
+
+}
+.ref p{
+    text-align: left;
+    position: absolute;
+    left: 5;
+}
+
+.beg{
+    width: 100%;
+    height: 325vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpaper.jpg);
+    background-size:cover;
+    background-position:center;
+  
+   
+
+}
+.star h2{
+    text-align: left;
+color: wheat;
+font-size: bold;
+}
+.star h3{
+    text-align: left;
+    color: tan;
+}
+.star p{
+    font-size: large;
+    height: 5%;
+    color:turquoise;
+}
+.int h3{
+    text-align: left;
+    color: tan;
+}
+.int p{
+    font-size: large;
+    height: 5%;
+    color:turquoise;
+}
+.vc h3{
+    text-align: left;
+    color: tan;
+}
+.vc p1{
+    text-align: left;
+    color: tan; 
+}
+.info1 p1{
+    text-align: left;
+    color: tan; 
+}
+.info1 p{
+    font-size: large;
+  
+    color:turquoise; 
+}
+.exp1 p1{
+    text-align: left;
+    color: tan; 
+    text-transform: uppercase;
+}
+.exp1 p{
+    font-size: large;
+  
+    color:turquoise; 
+}
+.lan1 od li{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise; 
+}
+.acc1 od li{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise; 
+}
+.ref1 p{
+    text-align: left;
+    position: absolute;
+    left: 5;
+}
+.uniqu h3{
+    color: red;
+      text-shadow:  0 0 10px rgb(52, 150, 255),
+    0 0 20px blue,
+    0 0 40px rgb(77, 77, 210),
+    0 0 80px rgb(19, 19, 113),
+    0 0 120px rgb(3, 237, 249),
+    0 0 150px rgb(5, 190, 241);
+}
+.nice2{
+    width: 100%;
+    height: 255vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpaper.jpg);
+    background-size:cover;
+    background-position:center;
+    
+   
+
+}
+
+.name2 h2{  text-align: left;
+    color: wheat;
+    font-size: bold;
+
+}
+.name2 h3{
+    text-align: left;
+    color: wheat;
+    font-size: bold;
+}
+.name2 p{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise;    
+}
+.merc1 h3{
+    text-align: left;
+    color: wheat;
+    font-size: bold;
+}
+.merc1 p{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise;  
+}
+.cv1 h3{
+    text-align: left;
+    color: tan;
+}
+.cv1 p1{
+    text-align: left;
+    color: tan; 
+}
+.lan2 od li{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise; 
+}
+.acc2 od li{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise; 
+}
+.beg1{
+    width: 100%;
+    height: 345vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpaper.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: repeat;
+   
+
+}
+.star1 h2{
+    text-align: left;
+color: wheat;
+font-size: bold;
+}
+.star1 h3{
+    text-align: left;
+    color: tan;
+}
+.star1 p{
+    font-size: large;
+    height: 5%;
+    color:turquoise;
+}
+.int1 h3{
+    text-align: left;
+    color: tan;
+}
+.int1 p{
+    font-size: large;
+    height: 5%;
+    color:turquoise;
+}
+.vc1 h3{
+    text-align: left;
+    color: tan;
+}
+.vc1 p1{
+    text-align: left;
+    color: tan; 
+}
+.info2 p1{
+    text-align: left;
+    color: tan; 
+}
+.info2 p{
+    font-size: large;
+  
+    color:turquoise; 
+}
+.exp2 p1{
+    text-align: left;
+    color: tan; 
+    text-transform: uppercase;
+}
+.exp2 p{
+    font-size: large;
+  
+    color:turquoise; 
+}
+.lan3 od li{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise; 
+}
+.acc3{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise; 
+}
+.nice3{
+    width: 100%;
+    height: 255vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpaper.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: repeat;
+   
+
+}
+.uniqq2 h3{
+    color: red;
+    text-shadow:  0 0 10px rgb(52, 150, 255),
+    0 0 20px blue,
+    0 0 40px rgb(77, 77, 210),
+    0 0 80px rgb(19, 19, 113),
+    0 0 120px rgb(3, 237, 249),
+    0 0 150px rgb(5, 190, 241);
+}
+.name3 h2{  text-align: left;
+    color: wheat;
+    font-size: bold;
+
+}
+.name3 h3{
+    text-align: left;
+    color: wheat;
+    font-size: bold;
+}
+.name3 p{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise;    
+}
+.merc2 h3{
+    text-align: left;
+    color: wheat;
+    font-size: bold;
+}
+.merc2 p{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise;  
+}
+.cv2 h3{
+    text-align: left;
+    color: tan;
+}
+.cv2 p1{
+    text-align: left;
+    color: tan; 
+}
+.lan4 od li{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise; 
+}
+.acc4 od li{
+    text-align: left;
+   
+    font-size: large;
+
+    color:turquoise;
+}
+.beg2{
+    width: 100%;
+    height: 320vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpaper.jpg);
+    background-size:cover;
+    background-position:center;
+    
+   
+
+}
+.star2 h2{
+    text-align: left;
+color: wheat;
+font-size: bold;
+}
+.star2 h3{
+    text-align: left;
+    color: tan;
+}
+.star2 p{
+    font-size: large;
+    height: 5%;
+    color:turquoise;
+}
+.int2 h3{
+    text-align: left;
+    color: tan;
+}
+.int2 p{
+    font-size: large;
+    height: 5%;
+    color:turquoise;
+}
+.vc3 h3{
+    text-align: left;
+    color: tan;
+}
+.vc3 p1{
+    text-align: left;
+    color: tan;
+}
+.vc3 p{
+    font-size: large;
+    height: 5%;
+    color:turquoise;
+
+}
+.info3 p1{
+    text-align: left;
+    color: tan; 
+}
+.info3 p{
+    font-size: large;
+  
+    color:turquoise; 
+}
+    .exp3 p1{
+        text-align: left;
+        color: tan; 
+        text-transform: uppercase;
+    }
+    .exp3 p{
+        font-size: large;
+      
+        color:turquoise; 
+    }
+    .edu3 p1{
+        
+        text-align: left;
+        color: tan; 
+        text-transform: uppercase;
+    }
+    .edu3 p{
+        font-size: large;
+      
+        color:turquoise; 
+    }
+    .hob3 p{
+        font-size: large;
+      
+        color:turquoise; 
+    }
+    .hob3 p1{
+        
+        text-align: left;
+        color: tan; 
+        text-transform: uppercase;
+    }
+    .lang1 od li{
+        text-align: left;
+       
+        font-size: large;
+    
+        color:turquoise; 
+    }
+    .lang1 p1{
+        text-align: left;
+        color: tan; 
+        text-transform: uppercase;
+    }
+    .acc5 od li{
+        text-align: left;
+       
+        font-size: large;
+    
+        color:turquoise; 
+    }
+    .acc5 h3{
+        position: relative;
+    
+        text-align: left;
+        color: tan; 
+        text-transform: uppercase;
+    }
+    .ref6 h3{
+        position: relative;
+        text-align: left;
+        
+        color: tan; 
+        text-transform: uppercase;
+    }
+    .ref6 p{
+        position: relative;
+        font-size: large;
+   
+        color:turquoise; 
+    }
+    .underl h3{
+        color: red;
+        text-shadow:  0 0 10px rgb(52, 150, 255),
+        0 0 20px blue,
+        0 0 40px rgb(77, 77, 210),
+        0 0 80px rgb(19, 19, 113),
+        0 0 120px rgb(3, 237, 249),
+        0 0 150px rgb(5, 190, 241);
+    }
+    .under2 h3{
+        color: red;
+        text-shadow:  0 0 10px rgb(52, 150, 255),
+        0 0 20px blue,
+        0 0 40px rgb(77, 77, 210),
+        0 0 80px rgb(19, 19, 113),
+        0 0 120px rgb(3, 237, 249),
+        0 0 150px rgb(5, 190, 241);
+    }
+    .camp h3{
+        color: red;
+        text-shadow:  0 0 10px rgb(52, 150, 255),
+        0 0 20px blue,
+        0 0 40px rgb(77, 77, 210),
+        0 0 80px rgb(19, 19, 113),
+        0 0 120px rgb(3, 237, 249),
+        0 0 150px rgb(5, 190, 241);
+    }
+    .camp1 h3{
+        color: red;
+        text-shadow:  0 0 10px rgb(52, 150, 255),
+        0 0 20px blue,
+        0 0 40px rgb(77, 77, 210),
+        0 0 80px rgb(19, 19, 113),
+        0 0 120px rgb(3, 237, 249),
+        0 0 150px rgb(5, 190, 241);
+    }
+    button{
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        
+        font-weight: bold;
+        border: 3px solid #009688;
+        background: silver;
+        color:aqua;
+    }
+    .link3 h3{
+        color:crimson;
+    }
+    .lin4 {
+        position: relative;
+        text-align: left;
+       left: 0; 
+        bottom: 0;
+    }
+    .lin4 h3{
+          position: relative;
+        text-align: left;
+        left: 0;
+        bottom: 0;
+    }
+    .lin5 {
+        position: relative;
+        text-align: left;
+       left: 0;
+        bottom: 0;
+    }
+.lin5 h3{
+    position: relative;
+  text-align: left;
+left: 0;
+  bottom: 0;
+}
+.lin6{
+    position: relative;
+    text-align: left;
+   
+
+}
+.lin6 h3{
+    position: relative;
+  text-align: left;
+  
+  color:powderblue
+}
+.lin6 h2{
+    color: crimson;
+    letter-spacing: 0.09cm;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: aqua;
+    text-transform: uppercase;
+    letter-spacing: 0.1cm;
+    font-size: 20px;
+    text-decoration: none;
+   overflow: hidden;
+    transition: 0.2ms;
+  
+    
+}
+a:hover{
+    color: burlywood;
+    background: blueviolet;
+    box-shadow: 0 0 10px blueviolet, 0 0 40px blueviolet, 0 0 80px blueviolet;
+transition-delay: 1s;
+}
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, blueviolet);
+}
+
+a:hover span:nth-child(1){
+     left:100%;
+     transition: 1s;
+}
+
+a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, transparent, blueviolet);
+}
+
+a:hover span:nth-child(3){
+     right:100%;
+     transition: 1s;
+     transition-delay: 0.5s;
+}
+
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, blueviolet);
+}
+
+a:hover span:nth-child(2){
+     top:100%;
+     transition: 1s;
+     transition-delay: 0.25s;
+}
+
+a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(3600deg, transparent, blueviolet);
+}
+
+a:hover span:nth-child(4){
+     bottom:100%;
+     transition: 1s;
+     transition-delay: 0.75s;
+}
